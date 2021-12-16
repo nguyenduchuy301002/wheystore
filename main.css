@@ -1,0 +1,419 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+}
+.container1{
+	width: 100%;
+	height: 1700px;
+}
+.thanhcongcu{
+	width: 100%;
+	height: 70px;
+	margin-bottom: 30px;
+	margin-top:10px;
+}
+.block2{
+	width: 100%;
+	height: 100	px;
+	background:black;
+	padding-top: 10px;
+}
+.tieude{
+	width: 100%;
+	height: 70px;
+}
+.sanpham{
+	width: 20%;
+	height:260px;
+	float: right;
+	padding-bottom: 50px;
+}
+.thongtinsanpham{
+	width: 270px;
+	height:150px;
+	float: left;
+	padding-bottom: 100px;
+	margin-top: 50px;
+	text-align: center;
+	margin-left: 35px;
+	margin-right: 35px
+}
+.muangay{
+	width: 200px;
+	height: 50px;
+	background: #F1C613;
+	float:left; 
+	border-radius: 50px;
+	display: flex;
+	margin-top:10px;
+
+}
+.btn-submit {
+  padding: 20px 40px;
+  border-radius: 50px;
+  outline: 0;
+  border: 0;
+  background: #C40000;
+  font-weight: 700;
+  color: #fff;
+	margin-top: 15px;
+}
+.btn-submit:hover {
+  background: #f12711;
+  background: -webkit-linear-gradient(to right, #f12711, #f5af19);
+  background: #F1C613; 
+}
+
+
+
+
+
+
+
+.logo{
+	width: 20%;
+	height: 70px;
+	float:left;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-left: -30px;
+	margin-left: 200px;
+}
+.searchbar{
+	width: 30%;
+	height: 70px;
+	float: right;
+	margin-bottom: 5px;
+	margin-right: 300px;
+	margin-top: 5px;
+}
+
+.box {
+height: 40px;
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background: #DCDCDC;
+border-radius: 50px;
+padding: 10px;
+margin: 5px 10px 5px 0;
+}
+.sbutton {
+color: #e84118;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+transition: 0.5s;
+}
+.sbox:hover > .stext {
+width: 89% ;
+padding: 0 5px;
+border-radius: 50px;
+}
+.sbox:hover > .sbutton {
+background: #fff;
+}
+
+.fa-search {
+color: #C40000;
+}
+.stext {
+border: none;
+background: none;
+outline: none;
+float: left;
+padding: 0;
+color: white;
+font-size: 15px;
+transition: 0.5s;
+line-height: 40px;
+width: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu{
+	max-width: 100%;
+	height: 70px;
+	background:#C40000;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+	padding: 15px 30px 15px 40px;
+	margin-top: 10px;
+	position: relative;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+.menu ul li a:hover
+{
+	color: black;
+	}
+.menu{
+	width: 100%;
+	height: 70px;
+}
+ul li ul
+{
+	position: absolute;
+	visibility: hidden;
+	top: 50px;
+	left: 0px;
+	margin: 0px;
+}
+ul li:hover ul
+{
+	visibility: visible;
+}
+ul li ul li
+{
+	width: 110px;
+	background: #FFFFFF;
+}
+ul li ul li:hover
+{
+	background: #CDCDCD;
+}
+
+
+.thongtinsanpham ul{
+	list-style: none;
+}
+.thongtinsanpham ul li{
+	float: left;
+	padding: 25px 30px 0px 0px;
+}
+.thongtinsanpham ul li a{
+	text-decoration: none;
+	color: black;
+}
+.thongtinsanpham ul li a:hover
+{
+	color: red;
+	}
+.thongtinsanpham ul li:hover
+{
+	color: red;
+}
+.boxquangcao{
+	width: 100%;
+	height: 750px;
+}
+.bannerdai{
+	width: 100%;
+	height: 200px;
+	float: right;
+	margin-top: 10px;
+}
+.nen01{
+	background: url("../../nguyễn đức huy/ảnh/banner_block_home_1.jpg")
+}
+.quangcao1{
+	width: 49%;
+	height: 500px;
+	padding:1px;
+	float:right;
+	background: url("../../nguyễn đức huy/ảnh/banner_1.png")
+
+}
+.nen02{
+	background: url("../../nguyễn đức huy/ảnh/banner_1.png")
+}
+.quangcao2{
+	width: 50%;
+	padding: 1px;
+	height: 500px;
+	float:left;
+	background: url("../../nguyễn đức huy/ảnh/banner_2.png")
+}
+.nen03{
+	background: url("../../nguyễn đức huy/ảnh/banner_2.png");
+}
+.container2{
+	height:700px;
+	width: 100%;
+}
+.tieudewhey{
+	width: 100%;
+	height: 80px;
+	background: #2B2B2B;
+	display: table;
+	margin: auto;
+}
+.box-whey{
+	width: 100%;
+	height: 500px;
+	padding: 20px 0px ;
+	margin-top:30px; 
+}
+.whey{
+	width: 19%;
+	height:300px;
+	float: left;
+	background: white;
+	border-color: black; 
+	padding-bottom: 100px;
+	box-sizing: border-box;
+}
+.boxthongtin{
+	width: 100%;
+	height:150px;
+}
+.thongtinweb{
+	width: 23%;
+	height:150px;
+	float: left;
+	margin: 10px;
+}
+.icon{
+	width:50px;
+	height:50px;
+	float:left;
+	padding: 20px;
+	margin-top: 10px;
+}
+.iconbox{
+	width:100%;
+	height:100px;
+}
+.endweb{
+	width: 100%;
+	height: 100px;
+	background: #2B2B2B;
+	padding: 20px;
+	margin-top: 25px;
+}
+.logo1{
+	width: 20%;
+	height: 30px;
+	float:right;
+}
+.label1{
+	width:100%;
+	height: 195px;
+	background: url("../../nguyễn đức huy/ảnh/2 bw.png");
+}
+.bannerdai .label1{
+	opacity: 0;
+	
+}
+.bannerdai:hover .label1{
+	opacity: 1;
+	
+}
+.label2{
+	width:100%;
+	height: 500px;
+	background: url("../../nguyễn đức huy/ảnh/banner_1 bw.png");
+}
+.quangcao1 .label2{
+	opacity: 0;
+}
+.quangcao1:hover .label2{
+	opacity: 1;
+}
+.label3{
+	width:100%;
+	height: 500px;
+	background: url("../../nguyễn đức huy/ảnh/banner_2 bw.png");
+}
+.quangcao2 .label3{
+	opacity: 0;
+}
+.quangcao2:hover .label3{
+	opacity: 1;
+}
+
+<style>
+.sanpham img{display:block;transition: all .3s ease;}
+.sanpham img:hover{transform: scale(1.1);}
+.sanpham p{display:block;overflow: hidden;}
+</style>
+
+<style>
+.whey img{display:block;transition: all .3s ease;}
+.whey img:hover{transform: scale(1.1);}
+.whey p{display:block;overflow: hidden;}
+</style>
+
+<style>
+.icon img{display:block;transition: all .3s ease;}
+.icon img:hover{transform: scale(1.1);}
+.icon p{display:block;overflow: hidden;}
+</style>
+
+
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 50px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-right .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
